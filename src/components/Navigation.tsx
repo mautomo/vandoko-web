@@ -17,7 +17,7 @@ export default function Navigation() {
               width={80}
               height={80}
               className="object-contain"
-              style={{ width: 'auto', height: '80px' }}
+              style={{ width: 'auto', height: 'auto' }}
             />
           </Link>
           

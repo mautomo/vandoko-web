@@ -1,17 +1,18 @@
-import Hero from '@/components/Hero'
+import Hero from '@/components/Hero';
+import HolographicDataDisplay from '@/components/HolographicDataDisplay';
+import LiveCollaboration from '@/components/LiveCollaboration';
 import MarketTemperature from '@/components/MarketTemperature'
 import DashboardPreview from '@/components/DashboardPreview'
 import Footer from '@/components/Footer'
-
 export default function Home() {
   return (
-    <>
-      <main className="min-h-screen bg-black">
-        <Hero />
-        <MarketTemperature />
-        <DashboardPreview />
-      </main>
+    <main>
+      <LiveCollaboration />
+      <Hero />
+      <HolographicDataDisplay />
+      <MarketTemperature />
+      <DashboardPreview />
       <Footer />
-    </>
-  )
+    </main>
+  );
 }
